@@ -126,6 +126,7 @@ Compare instantiating 100 classical objects vs. 100 prototypal objects. In class
 
 ## Example
 
+```
 function Employee (name, job, salary) {
 	this.name = name
 	this.job = job
@@ -137,7 +138,7 @@ Employee.prototype.getPayCheck = function () {
 }
 
 var bob = new Employee('Bob', 'Salesman', 45000)
-
+```
 ---
 
 https://docs.google.com/document/d/1FFWsS11ANomDw0V0jNnfLCQ2UeMRIN_C0tzAM_GpDY0/edit
